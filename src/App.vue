@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+  import { RouterView } from 'vue-router'
+  import TheNavbar from '@/components/TheNavbar.vue'
 </script>
 
 <template>
-  <nav>
-    <RouterLink to="/">Home</RouterLink>
-  </nav>
-
-  <RouterView />
+  <TheNavbar />
+  <div class="container-fluid">
+    <RouterView />
+  </div>
 </template>
 
 <style lang="scss">
