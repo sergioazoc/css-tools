@@ -9,7 +9,7 @@ const router = createRouter({
       component: () => import('@/views/HomeView.vue')
     },
     {
-      path: '/',
+      path: '/letter-counter',
       name: 'letter-counter',
       component: () => import('@/views/LetterCounterView.vue')
     },

@@ -10,7 +10,7 @@
 </script>
 
 <template>
-  <div class="vstack gap-3 col-md-6 mx-auto">
+  <div class="vstack gap-3">
     <h1>Letter Counter</h1>
   
     <textarea
@@ -21,6 +21,6 @@
       rows="3"
     />
   
-    <h2>Count: {{ count }}</h2>
+    <h2>N°: {{ count }}</h2>
   </div>
 </template>
