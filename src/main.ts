@@ -3,6 +3,8 @@ import { createPinia } from 'pinia'
 
 import App from './App.vue'
 import router from './router'
+import 'bootstrap'
+import '@/assets/styles/app.scss'
 
 const app = createApp(App)
 
