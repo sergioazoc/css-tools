@@ -8,6 +8,11 @@ const router = createRouter({
       name: 'home',
       component: () => import('@/views/HomeView.vue')
     },
+    {
+      path: '/',
+      name: 'letter-counter',
+      component: () => import('@/views/LetterCounterView.vue')
+    },
   ],
   linkActiveClass: 'active'
 })

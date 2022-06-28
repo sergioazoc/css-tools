@@ -5,7 +5,7 @@
 
 <template>
   <TheNavbar />
-  <div class="container-fluid">
+  <div class="container mt-5">
     <RouterView />
   </div>
 </template>

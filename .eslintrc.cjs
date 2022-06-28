@@ -34,7 +34,7 @@ module.exports = {
     "vue/component-tags-order": [
       "error",
       {
-        order: [["script", "template"], "style", "i18n"],
+        order: ["script", "template", "style", "i18n"],
       },
     ],
     "vue/multi-word-component-names": ["error", {

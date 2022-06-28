@@ -4,12 +4,12 @@
 
 <template>
   <nav class="navbar navbar-dark navbar-expand-sm bg-primary">
-    <div class="container-fluid">
+    <div class="container">
       <RouterLink
         :to="{ name: 'home' }"
         class="navbar-brand"
       >
-        Css Tools 
+        Frontend Tools 
       </RouterLink>
       <button
         class="navbar-toggler"
@@ -32,7 +32,15 @@
               :to="{ name: 'home' }"
               class="nav-link"
             >
-              Inicio
+              Home
+            </RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink
+              :to="{ name: 'letter-counter' }"
+              class="nav-link"
+            >
+              Letter Counter
             </RouterLink>
           </li>
         </ul>
