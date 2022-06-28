@@ -37,10 +37,18 @@
           </li>
           <li class="nav-item">
             <RouterLink
-              :to="{ name: 'letter-counter' }"
+              :to="{ name: 'character-counter' }"
               class="nav-link"
             >
-              Letter Counter
+              Character Counter
+            </RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink
+              :to="{ name: 'word-counter' }"
+              class="nav-link"
+            >
+              Word Counter
             </RouterLink>
           </li>
         </ul>

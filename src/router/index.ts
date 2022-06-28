@@ -9,9 +9,14 @@ const router = createRouter({
       component: () => import('@/views/HomeView.vue')
     },
     {
-      path: '/letter-counter',
-      name: 'letter-counter',
-      component: () => import('@/views/LetterCounterView.vue')
+      path: '/character-counter',
+      name: 'character-counter',
+      component: () => import('@/views/CharacterCounterView.vue')
+    },
+    {
+      path: '/word-counter',
+      name: 'word-counter',
+      component: () => import('@/views/WordCounterView.vue')
     },
   ],
   linkActiveClass: 'active'

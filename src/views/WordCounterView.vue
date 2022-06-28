@@ -5,13 +5,14 @@
   const count = ref(0)
 
   watch(text, () => {
-    count.value = text.value.length
+    const arrayText = text.value.split(' ')
+    count.value = arrayText.filter(word => word !== '').length
   })
 </script>
 
 <template>
   <div class="vstack gap-3">
-    <h1>Letter Counter</h1>
+    <h1>Word Counter</h1>
   
     <textarea
       v-model="text"
